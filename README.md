@@ -1,2 +1,2 @@
 # Survey_Form
-This is the first project of responsive web design offered by free code camp.
+This is the first project of responsive web design course offered by Free Code Camp.
