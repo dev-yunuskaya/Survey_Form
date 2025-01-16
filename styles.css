@@ -1,0 +1,39 @@
+body {
+    background-color: #081c2b;
+}
+
+form {
+    max-width: 500px;
+    min-width: 300px;
+    width: 100%;
+    margin: 5px auto;
+    background: linear-gradient(90deg, #ccffd8, #94b9ff);
+    padding: 10px;
+    color: #162f41;
+}
+
+h1, p {
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+.inline {
+    width: unset;
+    display: inline;
+}
+
+input[type="submit"] {
+    width: 50%;
+    margin: auto;
+    background-color: #162f41;
+    color: white;
+}

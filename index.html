@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="survey-form" action="">
+        <h1 id="title">Title</h1>
+    <p id="description">Description</p>
+        <label id="name-label" for="name">
+            Name <input type="text" name="" id="name" required placeholder="Full Name">
+        </label>
+        <label id="email-label" for="email">
+            Email <input type="email" id="email" required placeholder="Email">
+        </label>
+        <label id="number-label" for="number">
+            Age <input type="number" name="" id="number" min="16" max="80" placeholder="Age">
+        </label>
+        <label for="">
+            Select one
+            <select name="" id="dropdown">
+                <option value="selection1">Selection 1</option>
+                <option value="selection2">Selection 2</option>
+            </select>
+        </label>
+        <label for="button1">
+            <input type="radio" class="inline" id="button1" name="button1" value="button1"> button1
+        </label>
+        <label for="button2">
+            <input type="radio" class="inline" id="button2" name="button1" value="button2"> button2
+        </label>
+        <label for="checkbox1">
+            <input type="checkbox" class="inline" id="checkbox1" value="checkbox1"> checkbox1
+        </label>
+        <label for="checkbox2">
+            <input type="checkbox" class="inline" id="checkbox2" value="checkbox2"> checkbox2
+        </label>
+        <label for="textarea">
+            <textarea name="" id="textarea" cols="30" rows="3" placeholder="Type here.."></textarea>
+        </label>
+        <input id="submit" type="submit">
+    </form>
+</body>
+</html>
